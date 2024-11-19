@@ -19,3 +19,10 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.btn-primary {
+  @apply bg-[#F7931E] text-white w-[148px] h-[54px] text-base rounded;
+}
+.btn-secondary {
+  @apply bg-transparent border border-[#F7931E] text-[#F7931E] w-[116px] h-[54px] text-base rounded;
+}
