@@ -3,10 +3,11 @@ import Navbar from "./Navbar";
 import Image from "next/image";
 
 const Header = () => {
+  const phone = "+1(516)855-8419";
   return (
     <>
       <header className="pt-[50px]">
-        <div className="fixed top-0 w-full bg-black text-white h-[50px]">
+        <div className="fixed top-0 w-full bg-black text-white h-[50px] z-10">
           <div className="flex justify-end mr-32 h-full items-center">
             <Image
               src="\phone.svg"
@@ -16,7 +17,10 @@ const Header = () => {
               className="mr-3 ml-3"
               alt="phone logo"
             />
-            +1(516)855-8419 |
+            <a href={`tel:${phone}`} className="mr-3">
+              +1 (516) 855-8419
+            </a>
+            |
             <Image
               src="\email.svg"
               width={18}

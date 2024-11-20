@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 type ButtonProps = {
@@ -6,7 +8,15 @@ type ButtonProps = {
 };
 
 const Button = ({ text, styles }: ButtonProps) => {
-  return <button className={styles}>{text}</button>;
+  const number = "+1(516)855-8419";
+  const callAction = () => {
+    window.location.href = `tel:${number}`;
+  };
+  return (
+    <button className={styles} type="button" onClick={callAction}>
+      {text}
+    </button>
+  );
 };
 
 export default Button;
