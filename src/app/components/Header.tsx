@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <header className="pt-[50px]">
         <div className="fixed top-0 w-full bg-black text-white h-[50px] z-10">
-          <div className="flex justify-end mr-32 h-full items-center">
+          <div className="flex justify-end mr-32 h-full items-center max-w-[1440px]">
             <Image
               src="\phone.svg"
               width={18}

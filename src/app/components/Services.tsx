@@ -4,7 +4,10 @@ import Button from "./Button";
 
 const Services = () => {
   return (
-    <section className="py-24 px-32 bg-[#0B0B0B] w-full flex flex-col items-center">
+    <section
+      id="service"
+      className="py-24 px-32 bg-[#0B0B0B] w-full flex flex-col items-center"
+    >
       <div className="text-center">
         <h3 className="text-orange text-xl">Our Services</h3>
         <h2 className="text-white font-bold text-5xl mt-[5px]">
