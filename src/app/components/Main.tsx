@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <section
       id="home"
-      className="w-full h-[594px] bg-[url('/main-bg.png')] bg-cover flex"
+      className="w-full h-[594px] bg-[url('/main-bg.png')] bg-cover md:bg-left flex px-5"
     >
       <div className="flex relative mx-auto max-w-[1440px]">
         <div className="py-[152px] flex gap-5 flex-col">
@@ -19,7 +19,7 @@ const Main = () => {
           </p>
           <Button text="Get in touch" styles="btn-primary z-10" />
         </div>
-        <div className="w-[428px] h-full bg-[url('/Shape.svg')] bg-no-repeat relative  z-0" />
+        <div className="lg:w-[428px] md:w-[188px] h-full bg-[url('/Shape.svg')] bg-no-repeat relative  z-0" />
       </div>
     </section>
   );

@@ -4,23 +4,28 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section
-      id="about"
-      className="h-[897px] w-full bg-black py-24 px-32 text-white flex"
-    >
-      <div className="max-w-[1440px] flex gap-[75px] items-center mx-auto">
-        <div className="w-[587px] h-[697px] relative">
-          <div className="bg-[url('/1.png')] h-[399px] w-[459px] bg-no-repeat absolute top-[300px] left-[130px]"></div>
+    <section id="about" className="w-full bg-black py-24 px-32 text-white flex">
+      <div className="max-w-[1440px] w-full md:flex-col flex lg:flex-row  items-center justify-between mx-auto">
+        <div className="max-w-[587px] md:mb-[56px] lg:mr-[230px] w-full h-[697px] relative">
+          <Image
+            src="/1.png"
+            width={459}
+            height={399}
+            className="absolute top-[300px] left-[130px]"
+            alt="About us image"
+          />
           <Image src="/2.png" width={435} height={543} alt="About us image" />
         </div>
-        <div className="w-[503px]">
-          <h3 className="text-orange text-xl">About Us</h3>
+        <div className="max-w-[503px] w-full">
+          <h3 className="text-orange lg:text-xl md:text-lg sm:text-sm">
+            About Us
+          </h3>
           <div className="mt-5 flex gap-6 flex-col">
-            <h2 className="text-5xl font-bold">
+            <h2 className="sm:text-baseline md:text-2xl lg:text-5xl font-bold  ">
               <span className="text-orange ">Your Trusted Partner</span> for
               Fast Key Replacements
             </h2>
-            <p className="text-base">
+            <p className="sm:text-xs lg:text-base">
               At Swift Car Keys, we believe that putting in a lot of hard work
               ensures the best service. We are here to provide you the most
               competitive prices and fast service. We use high quality keys that

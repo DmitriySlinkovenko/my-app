@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#0A1219] h-[85px] py-[15px] px-[125px] text-white">
+    <div className="bg-[#0A1219] h-[85px] py-[15px] px-[125px] text-white">
       <div className="flex justify-between max-w-[1440px] mx-auto">
         <div>
           <Link href="/">
@@ -18,7 +18,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div>
+        <div className="sm:hidden lg:block">
           <Link href="/" className="ml-[50px]">
             Home
           </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <Button text="Contact" styles="btn-secondary ml-[50px]" />
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

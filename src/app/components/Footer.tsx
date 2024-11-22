@@ -1,11 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Footer = () => {
   return (
     <footer className=" bg-black text-white">
-      <div className="flex justify-between pt-[50px] pb-24 px-32 max-w-[1440px] mx-auto">
+      <div className="flex md:flex-col md:justify-between md:gap-8 lg:flex-row justify-between pt-[50px] pb-24 px-32 max-w-[1440px] mx-auto">
         <div>
           <Image
             src="\logo.svg"
@@ -54,7 +55,7 @@ const Footer = () => {
               />
               +1 (516) 855-8419
             </Link>
-            <Link className="flex" href={`tel:+1(516)855-8419`}>
+            <p className="flex">
               <Image
                 src="\eorange.svg"
                 width={18}
@@ -64,11 +65,15 @@ const Footer = () => {
                 alt="email logo"
               />
               thekeyshield@gmail.com
-            </Link>
+            </p>
           </div>
 
           <div className="mt-6 flex gap-4">
-            <Link className="flex" href={`https://instagram.com/swift`}>
+            <Link
+              className="flex"
+              href={`https://www.instagram.com/swift_car_keys/`}
+              target="_blank"
+            >
               <Image
                 src="\instagram.svg"
                 width={36}
@@ -78,7 +83,11 @@ const Footer = () => {
                 alt="Instagram link"
               />
             </Link>
-            <Link className="flex" href={`https://facebook.com/swift`}>
+            <Link
+              className="flex"
+              href={`https://www.facebook.com/profile.php?id=61555618899701`}
+              target="_blank"
+            >
               <Image
                 src="\facebook.svg"
                 width={36}
