@@ -4,28 +4,35 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="w-full bg-black py-24 px-32 text-white flex">
-      <div className="max-w-[1440px] w-full md:flex-col flex lg:flex-row  items-center justify-between mx-auto">
-        <div className="max-w-[587px] md:mb-[56px] lg:mr-[230px] w-full h-[697px] relative">
+    <section
+      id="about"
+      className="w-full bg-black py-24 px-3 sm:px-32 text-white flex"
+    >
+      <div className="max-w-[1440px] w-full flex-col md:flex-col flex lg:flex-row  items-center justify-between mx-auto">
+        <div className="max-w-[587px] sm:mb-[56px] lg:mr-[230px] w-full sm:h-[697px] relative">
           <Image
             src="/1.png"
             width={459}
             height={399}
-            className="absolute top-[300px] left-[130px]"
+            className="hidden sm:inline sm:absolute sm:top-[300px] sm:left-[130px]"
             alt="About us image"
           />
-          <Image src="/2.png" width={435} height={543} alt="About us image" />
+          <Image
+            src="/2.png"
+            width={435}
+            height={543}
+            alt="About us image"
+            className="mb-5 sm:mb-0 rounded-3xl sm:rounded-none"
+          />
         </div>
         <div className="max-w-[503px] w-full">
-          <h3 className="text-orange lg:text-xl md:text-lg sm:text-sm">
-            About Us
-          </h3>
+          <h3 className="text-orange lg:text-xl sm:text-lg">About Us</h3>
           <div className="mt-5 flex gap-6 flex-col">
-            <h2 className="sm:text-baseline md:text-2xl lg:text-5xl font-bold  ">
+            <h2 className="sm:text-base md:text-2xl lg:text-5xl font-bold  ">
               <span className="text-orange ">Your Trusted Partner</span> for
               Fast Key Replacements
             </h2>
-            <p className="sm:text-xs lg:text-base">
+            <p className="lg:text-base">
               At Swift Car Keys, we believe that putting in a lot of hard work
               ensures the best service. We are here to provide you the most
               competitive prices and fast service. We use high quality keys that

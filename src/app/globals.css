@@ -21,7 +21,7 @@ body {
 }
 
 .btn-primary {
-  @apply bg-[#F7931E] text-white w-[148px] h-[54px] text-base rounded;
+  @apply bg-[#F7931E] text-white w-[148px] h-[54px] text-base rounded self-center lg:self-start;
 }
 .btn-secondary {
   @apply bg-transparent border border-[#F7931E] text-[#F7931E] w-[116px] h-[54px] text-base rounded;

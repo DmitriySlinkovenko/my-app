@@ -5,25 +5,25 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" bg-black text-white">
-      <div className="flex md:flex-col md:justify-between md:gap-8 lg:flex-row justify-between pt-[50px] pb-24 px-32 max-w-[1440px] mx-auto">
+    <footer className="bg-black text-white">
+      <div className="flex flex-col md:justify-between gap-8 lg:flex-row justify-between pt-[50px] pb-24 px-20 sm:px-32 max-w-[1440px] mx-auto">
         <div>
           <Image
             src="\logo.svg"
-            className="flex-1"
+            className="flex-1 justify-self-center"
             height={55}
             width={204}
             alt="Swift Car Keys logo"
           />
-          <p className="max-w-[300px] text-xl mt-7">
+          <p className="max-w-[300px] text-xs sm:text-xl mt-7 justify-self-center">
             Proudly servicing Brooklyn, Queens, and Nassau in New York
           </p>
         </div>
-        <div className="">
+        <div className="sm:max-lg:flex sm:max-lg:flex-col sm:max-lg:items-center">
           <p className="text-orange text-lg font-semibold mb-[25px] max-w-fit">
             Quick Links
           </p>
-          <div className="flex flex-col flex-wrap w-[395px] max-h-28 gap-5">
+          <div className="flex flex-col flex-wrap sm:max-w-[395px] w-full xl:w-[395px] max-h-28 gap-5">
             <Link className="max-w-fit" href="#home">
               Home
             </Link>
@@ -39,17 +39,16 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col sm:max-lg:items-center">
           <p className="text-orange text-lg font-semibold">
             Get in Touch With Us
           </p>
-          <div className="flex flex-col mt-6 gap-5">
+          <div className="flex flex-col  mt-6 gap-5">
             <Link className="flex" href={`tel:+1(516)855-8419`}>
               <Image
                 src="\porange.svg"
                 width={18}
-                height={9}
-                unoptimized
+                height={18}
                 className="mr-3"
                 alt="phone logo"
               />
@@ -59,8 +58,7 @@ const Footer = () => {
               <Image
                 src="\eorange.svg"
                 width={18}
-                height={9}
-                unoptimized
+                height={18}
                 className="mr-3"
                 alt="email logo"
               />
@@ -78,7 +76,6 @@ const Footer = () => {
                 src="\instagram.svg"
                 width={36}
                 height={36}
-                unoptimized
                 className="mr-3"
                 alt="Instagram link"
               />
@@ -92,7 +89,6 @@ const Footer = () => {
                 src="\facebook.svg"
                 width={36}
                 height={36}
-                unoptimized
                 className="mr-3"
                 alt="Facebook link"
               />
