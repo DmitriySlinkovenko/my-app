@@ -22,11 +22,11 @@ const AboutUs = () => {
             width={435}
             height={543}
             alt="About us image"
-            className="mb-5 sm:mb-0 rounded-3xl sm:rounded-none"
+            className="mb-5 sm:mb-0 rounded-[60px] sm:rounded-none"
           />
         </div>
         <div className="max-w-[503px] w-full">
-          <h3 className="text-orange lg:text-xl sm:text-lg">About Us</h3>
+          <p className="text-orange lg:text-xl sm:text-lg">About Us</p>
           <div className="mt-5 flex gap-6 flex-col">
             <h2 className="sm:text-base md:text-2xl lg:text-5xl font-bold  ">
               <span className="text-orange ">Your Trusted Partner</span> for

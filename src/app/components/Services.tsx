@@ -9,10 +9,10 @@ const Services = () => {
       className="pt-3 pb-10  sm:py-24 px-3 sm:px-32 bg-[#0B0B0B] w-full flex flex-col items-center"
     >
       <div className="text-center">
-        <h3 className="text-orange text-xl">Our Services</h3>
-        <h2 className="text-white font-bold text-5xl mt-[5px]">
+        <p className="text-orange text-xl">Our Services</p>
+        <p className="text-white font-bold text-5xl mt-[5px]">
           <span className="text-orange">Solutions</span> Tailored to You
-        </h2>
+        </p>
       </div>
       <div className="text-white flex flex-col sm:flex-row gap-12 w-full mt-12 justify-center font-semibold text-2xl">
         <div className="flex gap-6 flex-col items-center sm:items-start">
