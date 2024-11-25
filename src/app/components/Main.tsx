@@ -19,7 +19,7 @@ const Main = () => {
           </p>
           <Button text="Get in touch" styles="btn-primary z-10" />
         </div>
-        <div className="hidden sm:block lg:w-[428px] md:w-[204px] h-full bg-[url('/Shape.svg')] bg-no-repeat z-0" />
+        <div className="hidden lg:block lg:w-[428px] h-full bg-[url('/Shape.svg')] bg-no-repeat z-0" />
       </div>
     </section>
   );

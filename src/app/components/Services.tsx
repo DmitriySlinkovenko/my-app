@@ -15,28 +15,36 @@ const Services = () => {
         </p>
       </div>
       <div className="text-white flex flex-col sm:flex-row gap-12 w-full mt-12 justify-center font-semibold text-2xl">
-        <div className="flex gap-6 flex-col items-center sm:items-start">
+        <div className="flex  gap-6 flex-col items-center sm:items-start overflow-hidden rounded-t-3xl">
           <Image
             width={363}
             height={260}
             alt="Key duplication picture"
             src="/3.png"
+            className="hover:scale-105 duration-1000"
           />
           <p>Key Duplication</p>
           <Button text="Contact now" styles="btn-secondary" />
         </div>
-        <div className="flex gap-6 flex-col items-center sm:items-start">
+        <div className="flex gap-6 flex-col items-center sm:items-start overflow-hidden rounded-t-3xl">
           <Image
             width={363}
             height={260}
             src="/4.png"
             alt="All keys lost picture"
+            className="hover:scale-105 duration-1000"
           />
           <p>All Keys Lost</p>
           <Button text="Contact now" styles="btn-secondary" />
         </div>
-        <div className="flex gap-6 flex-col items-center sm:items-start">
-          <Image width={363} height={260} src="/5.png" alt="Vehicle Lockout" />
+        <div className="flex gap-6 flex-col items-center sm:items-start  overflow-hidden rounded-t-3xl">
+          <Image
+            width={363}
+            height={260}
+            src="/5.png"
+            alt="Vehicle Lockout"
+            className="hover:scale-105 duration-1000"
+          />
           <p>Vehicle Lockout</p>
           <Button text="Contact now" styles="btn-secondary" />
         </div>
