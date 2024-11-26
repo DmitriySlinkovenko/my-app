@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <section
       id="home"
-      className="w-full sm:h-[594px] bg-[url('/mainf.webp')] bg-cover flex sm:px-5"
+      className="w-full sm:h-[594px] bg-[url('/car-locksmith.webp')] bg-cover flex sm:px-5"
     >
       <div className="mx-auto max-w-[1440px] flex">
         <div className="py-[100px] sm:py-[152px] flex gap-5 flex-col">

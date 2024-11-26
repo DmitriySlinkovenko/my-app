@@ -11,17 +11,17 @@ const AboutUs = () => {
       <div className="max-w-[1440px] w-full flex-col md:flex-col flex lg:flex-row  items-center justify-between mx-auto">
         <div className="max-w-[587px] sm:mb-[56px] lg:mr-[230px] w-full sm:h-[697px] relative">
           <Image
-            src="/1.png"
+            src="/lock-picking.png"
             width={459}
             height={399}
             className="hidden sm:inline sm:absolute sm:top-[300px] sm:left-[130px]"
-            alt="About us image"
+            alt="Vehicle being opened"
           />
           <Image
-            src="/2.png"
+            src="/new-key.png"
             width={435}
             height={543}
-            alt="About us image"
+            alt="Happy customer is holding a brand new car key"
             className="mb-5 sm:mb-0 rounded-[60px] sm:rounded-none"
           />
         </div>
