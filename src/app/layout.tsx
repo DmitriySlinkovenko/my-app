@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Swift Car Keys",
   description:
     "Your trusty local automotive locksmith. Proudly serving Brooklyn, Queens, and Nassau County in New York. Best prices on all car keys.",
+  verification: {
+    google: "SUpvYzDTouBHtIFnFB3_JOi6PI89DStkfOHTWLKhtNI",
+  },
 };
 
 export default function RootLayout({
